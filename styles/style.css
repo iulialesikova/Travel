@@ -2,10 +2,10 @@ body {
   background-image: url(../assets/garrett-parker.png);
   width: 1440px;
   background-repeat: no-repeat;
+  color: #FFFFFF;
 }
 
 header {
-  height: 90px;
   background: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
 }
@@ -14,10 +14,74 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  margin-left: 65px;
+  margin-right: 55px;
+
+
 }
 
-.logo {}
+.logo {
+font-size: 32px;
+font-weight: bold;
+}
 
-.links {}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 20px;
 
-.btm {}
+}
+
+.btm {
+  background-color: #0D606F;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.login{
+  width: 103px;
+  height: 41px;
+  border: 0;
+}
+
+.home-page{
+display: block;
+position: absolute;
+width: 892px;
+left: 120px;
+font-size: 20px;
+line-height: 75px;
+font-family: 'Aleo';
+}
+
+h1{
+  font-size: 65px;
+  font-family: 'Aleo';
+
+}
+
+form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 892px;
+  height: 95px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+input{
+  width: 560px;
+  height: 22px;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  color: #F2785C;
+}
+
+.start{
+  width: 228px;
+  height: 56px;
+}
