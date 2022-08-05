@@ -1,6 +1,7 @@
 body {
   background-image: url(../assets/garrett-parker.png);
   width: 1440px;
+  height: 100vh;
   background-repeat: no-repeat;
   color: #FFFFFF;
 }
@@ -23,8 +24,8 @@ nav {
 }
 
 .logo {
-font-size: 32px;
-font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 a {
@@ -41,29 +42,32 @@ a {
   font-weight: bold;
 }
 
-.login{
+.login {
   width: 103px;
   height: 41px;
   border: 0;
 }
-
-.home-page{
-display: block;
-position: absolute;
-width: 892px;
-left: 120px;
-font-size: 20px;
-line-height: 75px;
-font-family: 'Aleo';
+.main{
+  height: 700px;
 }
 
-h1{
+.home-page {
+  display: block;
+  position: absolute;
+  width: 892px;
+  left: 120px;
+  font-size: 20px;
+  line-height: 75px;
+  font-family: 'Aleo';
+}
+
+h1 {
   font-size: 65px;
   font-family: 'Aleo';
 
 }
 
-form{
+form {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -73,7 +77,7 @@ form{
   background: rgba(255, 255, 255, 0.7);
 }
 
-input{
+input {
   width: 560px;
   height: 22px;
   border: none;
@@ -81,7 +85,42 @@ input{
   color: #F2785C;
 }
 
-.start{
+.start {
   width: 228px;
   height: 56px;
+}
+
+.trip{
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+h2{
+  color: #F2785C;
+  font-size: 40px;
+  text-align: center;
+}
+.tour{
+  color: #0D606F;
+  font-size: 20px;
+}
+
+.information{
+display: flex;
+flex-direction: column;
+}
+
+.fot{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background-color: #F2785C;
+}
+.foto{
+  width: 50%;
+  height: 50%;
 }
