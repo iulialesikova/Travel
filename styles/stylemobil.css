@@ -1,0 +1,25 @@
+@media screen and (max-width: 390px){
+  body {
+    background-image:url(../assets/garrett-mob2.png);
+    width: 390px;
+    
+  }
+
+  .fond {
+    background-image: url(../assets/Rectanglemob28.png);
+  }
+
+  header{
+    
+  }
+
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 360px;
+    height: 48px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
