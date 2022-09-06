@@ -22,4 +22,22 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.7);
   }
+
+  .fond{
+    background-image: url(../assets/Rectanglemob28.png);
+    width: 390px;
+    height: 693px;
+  }
+
+  .photo {
+    width: 155px;
+    height: 130px;
+  }
+
+  .story{
+    width: 390px;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+  }
 }
