@@ -9,10 +9,32 @@
     background-image: url(../assets/Rectanglemob28.png);
   }
 
-  header{
+  .links, span{
+    display: none;
     
   }
+  header {
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  }
+.home-page{
+  left: 5px;
+}
+
+input{
+  width: 340px;
+  font-size: 14px;
+}
+.btm{
+  width: 92px;
+  height: 30px;
+  font-size: 11px;
+}
   form {
     display: flex;
     justify-content: space-around;
